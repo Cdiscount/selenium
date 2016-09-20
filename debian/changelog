@@ -1,3 +1,9 @@
+selenium (2.53.1-2) stable; urgency=medium
+
+  * ADD: run as selenium
+
+ -- Rémi BUISSON <remi.buisson@cdiscount.com>  Tue, 20 Sep 2016 14:56:42 +0200
+
 selenium (2.53.1-1) stable; urgency=medium
 
   * Initial release

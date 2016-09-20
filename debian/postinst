@@ -11,6 +11,12 @@ case "$1" in
             # we are doing an upgrade
             exit 0
         fi
+        USERNAME='selenium'
+	if [ -x "$(command -v adduser)" ]; then
+		adduser --system $USERNAME --home /var/lib/hornetq --shell /bin/sh > /dev/null || true
+  	else
+		echo >&2 "not adding $USERNAME system account because adduser command was not found"
+	fi
         systemctl daemon-reload
     ;;
     

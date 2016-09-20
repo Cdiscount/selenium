@@ -1,3 +1,4 @@
 [Service]
+User=selenium
 EnvironmentFile=-/etc/default/selenium
 ExecStart=/usr/bin/java -jar /usr/share/selenium/selenium-server-standalone.jar ${SELENIUM_ARGS}
