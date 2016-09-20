@@ -1,0 +1,15 @@
+Source: selenium
+Section: misc
+Priority: optional
+Maintainer: Rémi BUISSON <remi.buisson@cdiscount.com>
+Build-Depends: debhelper (>= 4.0.0), dh-systemd (>= 1.5) 
+Standards-Version: 3.9.5
+
+Package: selenium
+Architecture: any
+Depends: ${misc:Depends}, oracle-j2re1.8
+Description:  Selenium automates browsers. That's it!
+              What you do with that power is entirely up to you.
+              Primarily, it is for automating web applications for testing purposes,
+              but is certainly not limited to just that. Boring web-based administration
+              tasks can (and should!) also be automated as well.
